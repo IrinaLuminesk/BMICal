@@ -14,6 +14,8 @@ public class PrimaryController
     @FXML private Label KQ;
     public void Handler(ActionEvent event)
     {
+        //Hello
+        // hrll
         Double BMI = Double.parseDouble(this.Weight.getText()) / Math.pow(Double.parseDouble(this.Height.getText()) / 100, 2);
         DecimalFormat f = new DecimalFormat("#.##");
         String kq = f.format(BMI);
